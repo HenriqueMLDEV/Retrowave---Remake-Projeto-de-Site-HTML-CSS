@@ -55,8 +55,11 @@ nav{
     display: list-item;
     }
 
-body{
-background-color: 	#05ffa1;
+body {
+background: rgb(250,188,0);
+background: linear-gradient(180deg, rgba(250,188,0,1) 0%, rgba(201,0,255,1) 100%);
+font-family: 'Comfortaa', cursive;
+color: #2F4F4F;
 }
 
 #conteudo{
@@ -99,11 +102,7 @@ h2 {
 
 }
 
-body{
-    font-family: 'Comfortaa', cursive;
-    color: #2F4F4F;
-    
-}
+
 
 p{
 font-weight:bolder;
