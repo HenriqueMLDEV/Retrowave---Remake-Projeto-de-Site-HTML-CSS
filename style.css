@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Turret+Road:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 
 
 
@@ -89,7 +90,7 @@ color: #2F4F4F;
 }
 
 h1 {
-    font-family: 'Turret Road', cursive;
+    font-family: 'Space Mono', monospace;
     color: white;
     text-align: left;
     font-size: 350%;
