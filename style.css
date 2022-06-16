@@ -59,7 +59,7 @@ nav{
 body {
 background: rgb(249,172,83);
 background: linear-gradient(180deg, rgba(249,172,83,1) 0%, rgba(246,46,151,1) 100%);
-font-family: 'Comfortaa', cursive;
+font-family: 'Space Mono', monospace;
 color: #2F4F4F;
 }
 
