@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Turret+Road:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+main::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 80vw;
+  background: linear-gradient(-233deg, #000 30%, rgba(0, 0, 0, 0) 65%) no-repeat;
+}
+
+body {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.intro-title {
+  color: #ffffff;
+  font-size: 72px;
+  font-family: "Turret Road", cursive;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.intro-subtitle {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Turret Road", cursive;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+.intro-sub {
+  color: #ffffff;
+  font-size: 48px;
+  font-family: "Turret Road", cursive;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.intro-info {
+  font-family: "Comfortaa", cursive;
+  color: #ffffff;
+  line-height: 24px;
+}
+
+.artista {
+  display: none;
+  height: 100vh;
+}
+
+.artista.selecionado {
+  display: block;
+}
+
+.conteudo {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 380px;
+  z-index: 1;
+}
+
+.conteudo .nome-artista {
+  color: #ffffff;
+  font-size: 48px;
+  font-family: "Turret Road", cursive;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.conteudo .descricao {
+  font-family: "Comfortaa", cursive;
+  color: #ffffff;
+  line-height: 24px;
+}
+
+.conteudo .musica {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Turret Road", cursive;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.conteudo .lista-musica {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 1000;
+
+  margin-bottom: 20px;
+}
+
+.botoes {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 180px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.botoes .botao {
+  border: none;
+  background: #000000;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 80px;
+  height: 76px;
+}
+
+.botoes .botao img {
+  border-radius: 50%;
+  width: 80px;
+  height: 76px;
+  background-color: #000000;
+}
+
+.botoes .botao.selecionado {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px #d9d9d9;
+}
